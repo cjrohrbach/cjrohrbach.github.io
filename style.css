@@ -220,7 +220,7 @@ label {
 
 /* Mediaqueries to make side fullscreen when on small screen */
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .wrapper {
         width: 100%;
         margin: 0;
