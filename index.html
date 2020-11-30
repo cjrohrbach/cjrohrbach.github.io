@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRHD5QHWQ1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BRHD5QHWQ1');
+        </script>
+
+
         <title>Books.com - Home</title>
         <link rel="stylesheet" href="./style.css"/>
         <link rel="icon" type="image/png" href="./img/favicon.png" sizes="500x500">
@@ -17,9 +27,9 @@
                 </div>
                
                 <div id="social-media">
-                    <a href="#" class="social-button"><img src="./img/instagram.svg"></a>
-                    <a href="#" class="social-button"><img src="./img/facebook.svg"></a>
-                    <a href="#" class="social-button"><img src="./img/twitter.svg"></a>
+                    <a href="https://www.instagram.com" class="social-button"><img src="./img/instagram.svg"></a>
+                    <a href="https://www.facebook.com" class="social-button"><img src="./img/facebook.svg"></a>
+                    <a href="https://www.twitter.com" class="social-button"><img src="./img/twitter.svg"></a>
                 </div>
                 
                 <nav class="navbar">
@@ -32,22 +42,46 @@
             </header>
     
             <div class="content">
-                <img src="./img/bookstore.jpg" alt="Bookstore" id="img-bookstore">
-                <h1>Herzlich Willkommen auf Books.com</h1>
-                <p>Aufgrund der aktuellen Lage wurde das gemütliche Stöbern in der lokalen Buchahndlung schwierig.</p>
-                <p>
-                    Um tortzdem dafür zu sorgen, dass Ihnen der Lesestoff nicht ausgeht, können Sie unser Angebot neu 
-                    auch bequem von zuhause durchforsten und direkt an die Haustür bestellen.
-                </p>
-                <p>
-                    Wollen Sie trotzdem nicht auf das Stöbern verzichten, so ist dies auch in unserem Geschäft immer
-                    noch möglich, natürlich unter Einhaltung unseres Schutzkonzeptes.
-                </p>
-                <p> 
-                    Alles Gute Ihr Books.com Team.
-                </p>
+                <div id="welcome">
+                    <img src="./img/bookstore.jpg" alt="Bookstore" id="img-bookstore">
+                    <h1>Herzlich Willkommen auf Books.com</h1>
+                    <p>Aufgrund der aktuellen Lage wurde das gemütliche Stöbern in der lokalen Buchahndlung schwierig.</p>
+                    <p>
+                        Um tortzdem dafür zu sorgen, dass Ihnen der Lesestoff nicht ausgeht, können Sie unser Angebot neu 
+                        auch bequem von zuhause durchforsten und direkt an die Haustür bestellen.
+                    </p>
+                    <p>
+                        Wollen Sie trotzdem nicht auf das Stöbern verzichten, so ist dies auch in unserem Geschäft immer
+                        noch möglich, natürlich unter Einhaltung unseres Schutzkonzeptes.
+                    </p>
+                    <p> 
+                        Alles Gute Ihr Books.com Team.
+                    </p>
+                </div>
+                <div class="bestseller-section">
+                    <a href="shop.html"><h2>Unsere Bestseller</h2></a>
+                    <div id="bestseller-list">
+                        <div class="bestseller">
+                            <img src="./img/TributePanem.jpg" alt="Tribute von Panem" class="product-img">
+                        </div>
+                        <div class="bestseller">
+                            <img src="./img/DerHeimweg.jpeg" alt="Der Heimweg" class="product-img">
+                        </div>
+                        <div class="bestseller">
+                            <img src="./img/OhneSchuld.jpeg" alt="Ohne Schuld" class="product-img">
+                        </div>
+                    </div>
+                </div>
             </div>
+            
+            <footer>
+                <div id="footerlinks">
+                    <a href="contact.html">Kontakt</a> - <a href="contactform.html">Kontaktformular</a>
+                </div>
+            </footer>            
         </div>
+
+       
         
     </body>
 </html>

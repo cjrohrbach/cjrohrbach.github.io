@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRHD5QHWQ1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BRHD5QHWQ1');
+        </script>
+
+
         <title>Books.com - Kontakt</title>
         <link rel="stylesheet" href="./style.css"/>
         <link rel="icon" type="image/png" href="./img/favicon.png" sizes="500x500">
@@ -14,9 +24,9 @@
                 </div>
                
                 <div id="social-media">
-                    <a href="#" class="social-button"><img src="./img/instagram.svg"></a>
-                    <a href="#" class="social-button"><img src="./img/facebook.svg"></a>
-                    <a href="#" class="social-button"><img src="./img/twitter.svg"></a>
+                    <a href="https://www.instagram.com" class="social-button"><img src="./img/instagram.svg"></a>
+                    <a href="https://www.facebook.com" class="social-button"><img src="./img/facebook.svg"></a>
+                    <a href="https://www.twitter.com" class="social-button"><img src="./img/twitter.svg"></a>
                 </div>
                 
                 <nav class="navbar">
@@ -29,71 +39,23 @@
             </header>
             <div class="content">
                 <h1>Kontakt</h1>
-                <form method="post" action="mailto:testkonto1264@gmail.com">
-                    <table class="contactForm">
-                        <tr>
-                            <td>
-                                <label for="title">Anrede</label>
-                                <input type="search" list="titles" id="title">
-                                <datalist id="titles">
-                                    <option value="Frau">Frau</option>
-                                    <option value="Herr">Herr</option>
-                                </datalist>
-                            </td>
-                            
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="prename">Vorname</label>
-                                <input type="text" id="prename">
-                            </td>
-                            <td>
-                                <label for="lastname">Nachname</label>
-                                <input type="text" id="lastname">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label for="email">E-Mail</label>
-                                <input type="email" id="email">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label for="tel">Telefonnummer</label>
-                                <input type="tel" id="tel">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label for="street">Strasse & Nr.</label>
-                                <input type="text" id="street">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="city">Ort</label>
-                                <input type="text" id="city">
-                            </td>
-                            <td id="plzCol">
-                                <label for="plz">Plz</label>
-                                <input type="number" id="plz">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <label for="comment">Ihre Nachricht</label>
-                                <textarea id="comment"></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="submit" id="submit">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
+                <p><b>E-Mail:</b> <a href="mailto:info@books.com">info@books.com</a></p>
+                <p><b>Tel:</b> <a href="tel:0313333333">031 333 33 33</a></p>
+                <p>
+                    <b>Adresse:</b><br>
+                    Spitalgasse 1 <br>
+                    3011 Bern
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.6994026692296!2d7.440972715607763!3d46.94794677914641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e39c74c855759%3A0x50f97abd387cb4d1!2sSpitalgasse%201%2C%203011%20Bern!5e0!3m2!1sde!2sch!4v1606729107355!5m2!1sde!2sch" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                
+                <p><a href="contactform.html" id="contactformlink">Kontaktformular</a></p>
             </div>
+
+            <footer>
+                <div id="footerlinks">
+                    <a href="contact.html">Kontakt</a> - <a href="contactform.html">Kontaktformular</a>
+                </div>
+            </footer> 
         </div>
         
     </body>

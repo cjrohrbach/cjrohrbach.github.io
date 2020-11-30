@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRHD5QHWQ1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-BRHD5QHWQ1');
+        </script>
+
+        
+        <title>Books.com - Kontaktformular</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <link rel="icon" type="image/png" href="./img/favicon.png" sizes="500x500">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="logo">
+                    <a href="./index.html"><img src="./img/logo.png" alt="Books.com Logo" id="logo-header"></a>
+                </div>
+               
+                <div id="social-media">
+                    <a href="https://www.instagram.com" class="social-button"><img src="./img/instagram.svg"></a>
+                    <a href="https://www.facebook.com" class="social-button"><img src="./img/facebook.svg"></a>
+                    <a href="https://www.twitter.com" class="social-button"><img src="./img/twitter.svg"></a>
+                </div>
+                
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./shop.html">Shop</a></li>
+                        <li><a href="./contact.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <h1>Kontakt</h1>
+                <form method="post" action="mailto:info@books.com">
+                    <table class="contactForm">
+                        <tr>
+                            <td>
+                                <label for="title">Anrede</label>
+                                <input type="search" list="titles" id="title">
+                                <datalist id="titles">
+                                    <option value="Frau">Frau</option>
+                                    <option value="Herr">Herr</option>
+                                </datalist>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="prename">Vorname</label>
+                                <input type="text" id="prename">
+                            </td>
+                            <td>
+                                <label for="lastname">Nachname</label>
+                                <input type="text" id="lastname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="email">E-Mail</label>
+                                <input type="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="tel">Telefonnummer</label>
+                                <input type="tel" id="tel">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="street">Strasse & Nr.</label>
+                                <input type="text" id="street">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="city">Ort</label>
+                                <input type="text" id="city">
+                            </td>
+                            <td id="plzCol">
+                                <label for="plz">Plz</label>
+                                <input type="number" id="plz">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="comment">Ihre Nachricht</label>
+                                <textarea id="comment"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" id="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <footer>
+                <div id="footerlinks">
+                    <a href="contact.html">Kontakt</a> - <a href="contactform.html">Kontaktformular</a>
+                </div>
+            </footer> 
+        </div>
+        
+    </body>
+</html>
